@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3x3"
+    android:orientation="vertical" >
+
+      <Button
+          android:id="@+id/inibblue"
+          android:layout_width="66dp"
+          android:layout_height="67dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginLeft="52dp"
+          android:layout_marginTop="28dp"
+          android:background="@drawable/inibblue"
+          android:textColor="#ff0000"
+          android:textSize="30sp" />
+
+      <Button
+          android:id="@+id/inibblue2"
+          android:layout_width="66dp"
+          android:layout_height="67dp"
+          android:layout_alignLeft="@+id/inibblue"
+          android:layout_below="@+id/inibblue"
+          android:layout_marginTop="35dp"
+          android:background="@drawable/inibblue"
+          android:textColor="#ff0000"
+          android:textSize="30sp" />
+
+      <Button
+          android:id="@+id/golemblue"
+          android:layout_width="66dp"
+          android:layout_height="67dp"
+          android:layout_alignBaseline="@+id/inibblue"
+          android:layout_alignBottom="@+id/inibblue"
+          android:layout_marginLeft="22dp"
+          android:layout_toRightOf="@+id/inibblue"
+          android:background="@drawable/golemblue"
+          android:textColor="#ff0000"
+          android:textSize="30sp" />
+
+      <Button
+          android:id="@+id/wraithblue"
+          android:layout_width="66dp"
+          android:layout_height="67dp"
+          android:layout_alignBaseline="@+id/inibblue2"
+          android:layout_alignBottom="@+id/inibblue2"
+          android:layout_toRightOf="@+id/inibblue2"
+          android:background="@drawable/wraithblue"
+          android:textColor="#ff0000"
+          android:textSize="30sp" />
+
+      <Button
+          android:id="@+id/wolvesblue"
+          android:layout_width="66dp"
+          android:layout_height="67dp"
+          android:layout_alignBottom="@+id/wraithblue"
+          android:layout_marginBottom="16dp"
+          android:layout_toRightOf="@+id/wraithblue"
+          android:background="@drawable/wolveblue"
+          android:textColor="#ff0000"
+          android:textSize="30sp" />
+
+      <Button
+          android:id="@+id/vilemaw"
+          android:layout_width="66dp"
+          android:layout_height="67dp"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:background="@drawable/vilemaw"
+          android:textColor="#ff0000"
+          android:textSize="30sp" />
+
+      <Button
+          android:id="@+id/wolvespurple"
+          android:layout_width="66dp"
+          android:layout_height="67dp"
+          android:layout_alignBaseline="@+id/wolvesblue"
+          android:layout_alignBottom="@+id/wolvesblue"
+          android:layout_marginLeft="14dp"
+          android:layout_toRightOf="@+id/wolvesblue"
+          android:background="@drawable/wolvespurple"
+          android:textColor="#ff0000"
+          android:textSize="30sp" />
+
+      <Button
+          android:id="@+id/golemspurple"
+          android:layout_width="66dp"
+          android:layout_height="67dp"
+          android:layout_above="@+id/inibblue2"
+          android:layout_marginLeft="15dp"
+          android:layout_toRightOf="@+id/vilemaw"
+          android:background="@drawable/golempurple"
+          android:textColor="#ff0000"
+          android:textSize="30sp" />
+
+      <Button
+          android:id="@+id/wraithpurple"
+          android:layout_width="66dp"
+          android:layout_height="67dp"
+          android:layout_alignBaseline="@+id/wolvespurple"
+          android:layout_alignBottom="@+id/wolvespurple"
+          android:layout_toRightOf="@+id/wolvespurple"
+          android:background="@drawable/wraithpurple"
+          android:textColor="#ff0000"
+          android:textSize="30sp" />
+
+       <Button
+           android:id="@+id/inibpurple1"
+           android:layout_width="66dp"
+           android:layout_height="67dp"
+           android:layout_alignBaseline="@+id/golemspurple"
+           android:layout_alignBottom="@+id/golemspurple"
+           android:layout_marginLeft="14dp"
+           android:layout_toRightOf="@+id/wraithpurple"
+           android:background="@drawable/inibpurple"
+           android:textColor="#ff0000"
+           android:textSize="30sp" />
+
+       <Button
+           android:id="@+id/inibpurple2"
+           android:layout_width="66dp"
+           android:layout_height="67dp"
+           android:layout_alignBaseline="@+id/wraithblue"
+           android:layout_alignBottom="@+id/wraithblue"
+           android:layout_alignLeft="@+id/inibpurple1"
+           android:background="@drawable/inibpurple"
+           android:textColor="#ff0000"
+           android:textSize="30sp" />
+
+</RelativeLayout>

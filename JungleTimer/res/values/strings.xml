@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jungle Timer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings"></string>
+    <string name="actionAfegir">Options</string>
+    <string name="title_activity_second">Back</string>
+    <string name="copyright">Beta</string>
+    <string name="vibrator">Use vibrator</string>
+    <string name="clean"></string>
+    <string name="menu_obert"></string>
+    <string name="menu_tancat"></string>
+    <string name="clean"></string>
+    <string name="sound">Use sounds</string>
+    <string name="timedelay">Advance Notification (sec)</string>
+    <string name="title_activity_load_temps">LoadTemps</string>
+    <string name="newTime">Write new Time:</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="blanc"></string>
+    <string name="refresh">Refresh</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+	xmlns:JungleTimer="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        JungleTimer:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_add"
+        android:icon="@android:drawable/ic_menu_add"
+        JungleTimer:showAsAction="ifRoom|withText"
+        android:title="@string/actionAfegir">
+    </item>
+
+</menu>
